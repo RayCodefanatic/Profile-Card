@@ -55,7 +55,7 @@ body {
   flex-direction: column;
   text-align: center;
   padding: 24px 16px;
-  gap: 24px;
+  gap: 40px;
 }
 
 figure {
