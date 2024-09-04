@@ -24,6 +24,7 @@ body {
 
 .container {
   padding: 16px;
+  padding-top: 200px;
 }
 
 .profile {
@@ -34,6 +35,7 @@ body {
 
 @media (min-width: 375px) {
   .container {
+    padding-top: 200px;
     max-width: 100%;
   }
 }
@@ -41,6 +43,7 @@ body {
 @media (min-width: 768px) {
   .container {
     padding: 32px;
+    padding-top: 200px;
     max-width: 100%;
   }
 }
@@ -48,23 +51,26 @@ body {
 .card {
   width: 340px;
   margin: auto;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   background-color: #fff;
   border-radius: 8px;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 24px 16px;
-  gap: 24px;
+  gap: 40px;
 }
 
 figure {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  align-items: center;
+  gap: 24px;
 }
 
-figcaption img {
+
+
+figure img {
   width: 64px;
 }
 
@@ -93,7 +99,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 16px;
+  gap: 24px;
 }
 
 button {
